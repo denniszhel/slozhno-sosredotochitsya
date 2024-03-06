@@ -2,7 +2,6 @@
 
 .page {
   margin: 0;
-  padding-bottom: 10px;
   background-image: url("../images/cover-image-dark.png");
   background-position: center;
   background-size: cover;
@@ -15,8 +14,9 @@
 }
 
 .decorated-zone {
-  height: calc(100vh - 20px);
-  margin: 10px;
+  height: 100vh;
+  padding: 10px;
+  margin-bottom: -10px;
 }
 
 .header__rec-and-menu {
@@ -127,6 +127,7 @@
   margin-top: 50px;
 }
 
+
 .section__title {
   color: var(--section-title-color);
   font-family: var(--font-family-main);
@@ -170,7 +171,6 @@
 .text-link:focus,
 .text-link:focus-visible {
   display: inline-block;
-  display: inline-flex;
   align-items: center;
   height: 20px;
   border: 1px solid var(--card-text-color);
@@ -193,8 +193,9 @@
 .footer {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  height: calc(100vh - 20px);
-  margin: 50px 10px 0;
+  height: 100vh;
+  padding: 10px;
+  margin-top: 40px;
 }
 
 .footer__top-decoration {
@@ -229,8 +230,9 @@
 
 @media (min-width: 768px) {
   .decorated-zone {
-    height: calc(100vh - 40px);
-    margin: 20px;
+    height: 100vh;
+    padding: 20px;
+    margin-bottom: -20px;
   }
 
   .header {
@@ -326,8 +328,9 @@
   }
 
   .footer {
-    height: calc(100vh - 40px);
-    margin: 80px 20px;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 60px;
   }
 
   .footer__title {
@@ -383,7 +386,7 @@
   }
 
   .footer {
-    margin: 76px 20px;
+    margin-top: 55px;
   }
 
 }
