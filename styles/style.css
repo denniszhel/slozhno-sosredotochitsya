@@ -180,7 +180,7 @@
 }
 
 .text-link:hover {
-  border-bottom: 2px solid var(--card-text-color);
+  border-bottom: 1px solid var(--card-text-color);
 }
 
 .text-link:focus,
