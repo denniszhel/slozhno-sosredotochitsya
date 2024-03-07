@@ -11,6 +11,7 @@
   */
 
   --switch-color: #353430;
+  --switch-hover-border-color: rgba(50, 49, 45, 0.4);
   --title-color: #ffc2e6;
   --title-shadow-color: #ff8dcb;
   --section-title-color: #353430;
@@ -19,15 +20,15 @@
   --card-text-color: #353430;
   --link-shadow-color: #ff8dcb;
 
+  background-color: #fff;
   background-image: url("../images/cover-image-light.png");
 }
 
 .theme_light .header__rec-title {
-  display: none;
+  color: transparent;
 }
 
-.theme_light .header__rec-bulb:before {
-  content: '';
+.theme_light .header__rec-title::after {
   display: none;
 }
 
@@ -44,15 +45,15 @@
   }
 
   .page {
+    background-color: #fff;
     background-image: url("../images/cover-image-light.png");
   }
 
   .header__rec-title {
-    display: none;
+    color: transparent;
   }
-  
-  .header__rec-bulb:before {
-    content: '';
+
+  .header__rec-title::after {
     display: none;
   }
 }
