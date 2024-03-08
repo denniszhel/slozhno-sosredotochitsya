@@ -118,7 +118,7 @@
   font-family: var(--font-family-main);
   font-weight: 700;
   font-size: var(--logo-size);
-  line-height: 95.7px;
+  line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--title-shadow-color);
 }
 
@@ -332,10 +332,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-  }
-
-  .header__description {
-    margin-top: 16px;
   }
 
   .section__header-top {
