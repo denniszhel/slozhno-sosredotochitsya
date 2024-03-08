@@ -90,11 +90,13 @@
   font-family: var(--font-family-main);
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 18px;
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
   appearance: none;
+  display: flex;
+  justify-content: center;
 }
 
 .header__theme-menu-button:hover {
@@ -250,10 +252,6 @@
     left: 20px;
   }
 
-  .header__theme-menu {
-    margin-bottom: 5px;
-  }
-
   .header__title {
     margin-left: -20px;
   }
@@ -274,10 +272,6 @@
 
   .section__header-left > .section__title {
     width: 30vw;
-  }
-
-  .section__card_image-container-title {
-    margin-bottom: 18px;
   }
   
   .section__gallery {
