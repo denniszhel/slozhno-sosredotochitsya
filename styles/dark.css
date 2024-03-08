@@ -34,6 +34,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --switch-color: #ff0070;
+    --switch-hover-border-color: rgba(255, 0, 112, 0.4);
     --title-color: #db00ff;
     --title-shadow-color: #ff0070;
     --section-title-color: #ff0070;
